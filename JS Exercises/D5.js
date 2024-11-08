@@ -154,64 +154,64 @@ for (let i = 0; i < charactersArray[i], i++;) {
       letterenumeri.push(1);
       break;
       case 'b':
-      letterenumeri.push(1);
+      letterenumeri.push(2);
       break;
       case 'c':
-      letterenumeri.push(1);
+      letterenumeri.push(3);
       break;
       case 'd':
-      letterenumeri.push(1);
+      letterenumeri.push(4);
       break;
       case 'e':
-      letterenumeri.push(1);
+      letterenumeri.push(5);
       break;
       case 'f':
-      letterenumeri.push(1);
+      letterenumeri.push(6);
       break;
       case 'g':
-      letterenumeri.push(1);
+      letterenumeri.push(7);
       break;
       case 'h':
-      letterenumeri.push(1);
+      letterenumeri.push(8);
       break;
       case 'i':
-      letterenumeri.push(1);
+      letterenumeri.push(9);
       break;
       case 'l':
-      letterenumeri.push(1);
+      letterenumeri.push(10);
       break;
       case 'm':
-      letterenumeri.push(1);
+      letterenumeri.push(11);
       break;
       case 'n':
-      letterenumeri.push(1);
+      letterenumeri.push(12);
       break;
       case 'o':
-      letterenumeri.push(1);
+      letterenumeri.push(13);
       break;
       case 'p':
-      letterenumeri.push(1);
+      letterenumeri.push(14);
       break;
       case 'q':
-      letterenumeri.push(1);
+      letterenumeri.push(15);
       break;
       case 'r':
-      letterenumeri.push(1);
+      letterenumeri.push(16);
       break;
       case 's':
-      letterenumeri.push(1);
+      letterenumeri.push(17);
       break;
       case 't':
-      letterenumeri.push(1);
+      letterenumeri.push(18);
       break;
       case 'u':
-      letterenumeri.push(1);
+      letterenumeri.push(19);
       break;
       case 'v':
-      letterenumeri.push(1);
+      letterenumeri.push(20);
       break;
       case 'z':
-      letterenumeri.push(1);
+      letterenumeri.push(21);
       break;}
 }
 

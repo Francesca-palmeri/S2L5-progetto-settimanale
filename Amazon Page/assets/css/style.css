@@ -56,8 +56,12 @@ h4 {
     line-height: 1.0;
     
 }
-#banner h2, p {
+#banner h2 {
+  color: #EAEDED;
+  text-align: center;
+}
 
+#banner p{
   color: #EAEDED;
   text-align: center;
 }
@@ -65,19 +69,46 @@ h4 {
 .container{
   text-align: center;
   background-color: white;
-  padding-top: 50px;
   padding-bottom: 50px;
-  
+  margin: 16px 0px;
+
+}
+
+
+
+.blackgreen{
+    color: black;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.green{
+
+  color: #117B8D ;
+  font-weight: bold;
 }
 
 .container img{
   display: inline-block;
+  margin: 15px;
   width: 230px;
-  height: 250px;
+  height: 280px;
   border-radius: 10px;
   box-shadow: 3px 6px 20px 0px gray ;
+  
 }
 
-#blackgreen{
-  color: black;
+#music{
+  background-image: url("../images/img_9.png");
+  background-position: center;
+
+
+}
+
+a:link, a:visited{
+  color: white;
+  text-decoration: none;
+
 }
