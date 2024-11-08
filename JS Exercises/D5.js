@@ -147,8 +147,7 @@ console.log(numericArray[i]);
 const charactersArray = ['g', 'n', 'u', 'z', 'd'];
 let letterenumeri=[];
 
-for (let i = 0; i < charactersArray[i], i++;) {
-
+for (let i = 0; i < charactersArray.length; i++){
   switch(charactersArray[i]){
     case 'a':
       letterenumeri.push(1);
