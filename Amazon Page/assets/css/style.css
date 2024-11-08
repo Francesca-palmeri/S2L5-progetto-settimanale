@@ -115,13 +115,18 @@ a:link, a:visited{
 }
 
 #home{
-  
-}
-#Amazonlogo {
   text-align: center;
+  background-color: #364759;
+  padding: 10px ;
+  font-size: 0.8em ;
+}
 
+#Amazonlogo {
+  background-color: #222F3E;
+  text-align: center;
 }
 
 #Amazonlogo img{
-  width: 120px;
+  width: 150px;
+  padding: 50px ;
 }
