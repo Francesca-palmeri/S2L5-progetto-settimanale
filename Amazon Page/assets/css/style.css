@@ -53,23 +53,31 @@ h4 {
     background-size: contain;
     height: 10vh;
     padding: 35px 0;
+    line-height: 1.0;
     
 }
 #banner h2, p {
+
   color: #EAEDED;
   text-align: center;
 }
 
+.container{
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
 .container img{
   display: inline-block;
-  width: 300px;
-  height: 300px;
-  padding: ;
+  width: 230px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 3px 6px 20px 0px gray ;
 }
 
-#blackgreen p {
+#blackgreen{
   color: black;
-
 }
-
-
