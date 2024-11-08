@@ -20,26 +20,29 @@ for (let i = 0; i < pets.length; i++) {
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
 
-const newpets = pets;
+const newPets = pets;
 
-newpets.sort();
+newPets.sort();
 
-console.log(newpets);
+console.log(newPets);
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 
-newpets.sort().reverse();
+newPets.sort().reverse();
 
-console.log(newpets);
+console.log(newPets);
 
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
 
-new
+let firstPet = pets.shift();
+newPets.push(firstPet); 
+
+console.log(newPets);
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
@@ -65,20 +68,60 @@ const cars = [
   },
 ]
 
+
+for (let i = 0; i < cars.length; i++) {
+  cars[i].licensePlate = 'targa'; 
+}
+
+console.log(cars);
+
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
 
+const newCar = {
+  brand: 'Opel',
+  model: 'Astra',
+  color: 'black',
+  trims: ['basic', 'premium', 'sport'],
+  licensePlate: 'targa',
+};
+
+cars.push(newCar);
+console.log(newCar);
+
+for (let i = 0; i < cars.length; i++) {
+  cars[i].trims.pop(); 
+}
+
+console.log(cars);
+
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
-const justTrims = []
+const justTrims = [];
+
+for (let i = 0; i < cars.length; i++) {
+  justTrims.push(cars[i].trims[0]);
+
+}
+console.log(justTrims);
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+
+for (let i = 0; i < cars.length; i++) {
+  const color = cars[i].color; 
+  if(color[0] === 'b') {
+    console.log("Fizz");
+  } else {
+    console.log('Buzz');
+    }
+}
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
