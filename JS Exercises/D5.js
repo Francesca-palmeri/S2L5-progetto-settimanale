@@ -145,12 +145,76 @@ console.log(numericArray[i]);
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd'];
-const alphabet = ['a', 'b', 'c', 'e', 'f','g', 'h', 'i', 'l', 'm','n', 'o', 'p', 'q', 'r','s', 't', 'u','v','z',];
-const newCharactersArray =[];
+let letterenumeri=[];
 
-for (let i = 0; i < charactersArray.length; i++) {
-   let charactersArray = charactersArray[i];
-   let 
+for (let i = 0; i < charactersArray[i], i++) {
+
+  switch(charactersArray[i]){
+    case 'a':
+      letterenumeri.push(1);
+      break;
+      case 'b':
+      letterenumeri.push(1);
+      break;
+      case 'c':
+      letterenumeri.push(1);
+      break;
+      case 'd':
+      letterenumeri.push(1);
+      break;
+      case 'e':
+      letterenumeri.push(1);
+      break;
+      case 'f':
+      letterenumeri.push(1);
+      break;
+      case 'g':
+      letterenumeri.push(1);
+      break;
+      case 'h':
+      letterenumeri.push(1);
+      break;
+      case 'i':
+      letterenumeri.push(1);
+      break;
+      case 'l':
+      letterenumeri.push(1);
+      break;
+      case 'm':
+      letterenumeri.push(1);
+      break;
+      case 'n':
+      letterenumeri.push(1);
+      break;
+      case 'o':
+      letterenumeri.push(1);
+      break;
+      case 'p':
+      letterenumeri.push(1);
+      break;
+      case 'q':
+      letterenumeri.push(1);
+      break;
+      case 'r':
+      letterenumeri.push(1);
+      break;
+      case 's':
+      letterenumeri.push(1);
+      break;
+      case 't':
+      letterenumeri.push(1);
+      break;
+      case 'u':
+      letterenumeri.push(1);
+      break;
+      case 'v':
+      letterenumeri.push(1);
+      break;
+      case 'z':
+      letterenumeri.push(1);
+      break;
+      default
+  };
 }
 
-switch () 
+console.log(letterenumeri);
