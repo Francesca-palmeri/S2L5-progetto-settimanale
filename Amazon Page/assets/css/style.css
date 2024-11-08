@@ -15,9 +15,9 @@ body {
 
 
 header img {
-  width: 6%;
+  width: 10%;
   padding: 10px;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 ul {
@@ -28,10 +28,11 @@ ul {
 
 ul li {
   color: #d7dbdd;
-  font-size: 0.9em ;
+  font-size: 0.8em ;
   text-decoration: none;
   display: inline;
-  padding: 20px 0px 20px 25px;
+  padding: 20px 0px 20px 15px;
+  margin-left: 10px;
 
 }
 
