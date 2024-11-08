@@ -10,13 +10,14 @@ body {
 
 .color {
   background-color: #222f3e;
+  
 }
 
 
 header img {
   width: 6%;
   padding: 10px;
-  margin: 0, 25px;
+  margin: 0 10px;
 }
 
 ul {
@@ -30,7 +31,8 @@ ul li {
   font-size: 0.9em ;
   text-decoration: none;
   display: inline;
-  padding: 40px 10px;
+  padding: 20px 0px 20px 25px;
+
 }
 
 main {
@@ -45,6 +47,7 @@ h4 {
   padding: 10px ;
   font-size: 0.8em;
   font-weight: lighter;
+
 }
 
 #banner {
@@ -69,7 +72,6 @@ h4 {
 .container{
   text-align: center;
   background-color: white;
-  padding-bottom: 10px;
   margin: 16px 0px;
 
 }
@@ -101,9 +103,25 @@ h4 {
   
 }
 
+.title2{
+text-align: center;
+}
+
 
 a:link, a:visited{
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 
+}
+
+#home{
+  
+}
+#Amazonlogo {
+  text-align: center;
+
+}
+
+#Amazonlogo img{
+  width: 120px;
 }
